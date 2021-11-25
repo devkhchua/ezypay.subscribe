@@ -1,0 +1,41 @@
+{
+    "amount": 10.00,
+    "subscriptionType": "DAILY",
+    "billOn": "monday",
+    "startDate": "25/11/2022",
+    "endDate": "31/12/2021"
+}
+
+Subscription start date is after end date
+
+{
+    "amount": 10.00,
+    "subscriptionType": "WEEKLY",
+    "billOn": "MONDAY",
+    "startDate": "25/11/2021",
+    "endDate": "31/12/2022"
+}
+
+Subscription period is more than 3 months
+
+{
+    "amount": 10.00,
+    "subscriptionType": "WEEKLY",
+    "billOn": "asdasdasd",
+    "startDate": "25/11/2021",
+    "endDate": "31/12/2021"
+}
+
+Please enter the correct bill on type for weekly : eg. TUESDAY
+
+
+{
+    "amount": 10.00,
+    "subscriptionType": "MONTHLY",
+    "billOn": "asdasdasd",
+    "startDate": "25/11/2021",
+    "endDate": "31/12/2021"
+}
+
+Please enter the correct bill on type for monthly : eg. 1 to 31
+

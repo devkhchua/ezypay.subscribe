@@ -1,0 +1,9 @@
+{
+  "amount": 10,
+  "subscriptionType": "MONTHLY",
+  "invoiceDates": [
+    "2021-11-25",
+    "2021-12-25",
+    "2022-01-25"
+  ]
+}

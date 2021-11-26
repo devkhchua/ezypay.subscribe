@@ -1,5 +1,6 @@
 package com.ezypay.interview.subscription.vm;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,5 +14,6 @@ import java.util.List;
 public class Response {
     private Double amount;
     private String subscriptionType;
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private List<LocalDate> invoiceDates;
 }
